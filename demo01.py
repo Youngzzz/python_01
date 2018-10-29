@@ -4,4 +4,4 @@ app = Flask(__name__)
 def index():
     return "陌上花开，可缓缓归矣～"
 if __name__ == "__main__":
-    app.run()
+    app.run(debug = True)
